@@ -1,0 +1,190 @@
+:root {
+    ---praymary-color: rgb(255, 0, 128);
+
+}
+
+.about {
+
+    /* display: none; */
+    height: 1350px;
+    /* width: 1021px; */
+    margin-left: -5px;
+    /* border: 14px solid rgba(0, 0, 0, 0.925); */
+}
+
+.about-loren h1 {
+    display: inline-block;
+}
+
+.about-h1-underline1 {
+    margin-top: -20px;
+    height: 5px;
+    width: 100px;
+}
+
+.about-h1-underline2 {
+    margin-top: 3px;
+    height: 5px;
+    width: 50px;
+}
+
+.about-dittles {
+    display: flex;
+}
+
+.about-dittles-h1 {
+    display: flex;
+    margin-top: 50px;
+}
+
+.about-dittles-h1 h1 {
+    margin-right: 390px;
+}
+
+.about-dittles-rank table tr td {
+    height: 50px;
+    width: 300px;
+    /* color: rgba(255, 255, 255, 0.575); */
+}
+
+/* .about-dittles-rank table tr td strong{
+    color: white;
+} */
+
+
+.position {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+
+}
+
+.color {
+
+    height: 7px;
+    border-radius: 20px;
+}
+
+.color2 {
+    background-color: blue;
+    height: 7px;
+    border-radius: 20px;
+}
+
+.education {
+    display: flex;
+    border-radius: 10px;
+    width: 500px;
+    height: 690px;
+}
+
+.education-line2 {
+    background-color: green;
+    height: 240px;
+    width: 2px;
+    /* margin-left: 20px; */
+    margin-top: 20px;
+}
+.education-line {
+    background-color: green;
+    height: 650px;
+    width: 2px;
+    /* margin-left: 20px; */
+    margin-top: 20px;
+}
+
+.educaton-dot {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: green;
+    margin-left: -8.5px;
+    margin-bottom: 200px;
+}
+
+.education-loren {
+    height: 600px;
+    width: 510px;
+    margin-top: 20px;
+}
+
+.education-loren-dittles {
+    height: 200px;
+    width: 450px;
+    margin-left: 20px;
+}
+
+.exprience {
+    display: flex;
+    /* margin-top: -300px; */
+    /* margin-left: 25px; */
+    /* border-radius: 10px; */
+    /* width: 500px; */
+
+}
+
+.contact {
+    height: 900px;
+    
+    margin: -22px -5px 0px -5px;
+    /* display: none; */
+}
+
+/* .contact .portfolio-write-tag h1 {
+    margin-left: 30px;
+    padding-top: 40px;
+    color: white;
+} */
+
+/* .contact h1 {
+    color: darkorange;
+} */
+
+.contact-link {
+    display: flex;
+}
+
+.contact-us-on {
+    height: 100px;
+    width: 300px;
+    text-align: center;
+}
+
+.contact-box {
+    /* border: 30px solid black; */
+    align-items: center;
+}
+
+.contact-box #input-name-email {
+    height: 30px;
+    width: 430px;
+    background-color: rgba(34, 33, 33, 0.473);
+    border-radius: 20px;
+    margin: 10px;
+    padding-left: 20px;
+    border: 2px solid black;
+}
+
+.contact-box #subject {
+    height: 30px;
+    width: 915px;
+    background-color: rgba(34, 33, 33, 0.473);
+    border-radius: 20px;
+    margin: 10px;
+    padding-left: 20px;
+    border: 2px solid black;
+}
+
+.contact-box #massage {
+    height: 150px;
+    width: 915px;
+    background-color: rgba(34, 33, 33, 0.473);
+    border-radius: 20px;
+    margin: 10px;
+    padding-left: 20px;
+    border: 2px solid black;
+}
+
+.contact-box button {
+    width: 150px;
+}
