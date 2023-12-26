@@ -29,7 +29,7 @@ const Home = () => {
                             </div>
                             <div className="mt-5 text-center flex items-center justify-center gap-5">
                                 <a href="https://www.facebook.com/sm.maksudur.71"><FaSquareFacebook className="text-3xl" /></a>
-                                <a href="https://www.linkedin.com/in/maksudur-rahaman-067b35274/"><FaLinkedin className="text-3xl" /></a>
+                                <a href="https://www.linkedin.com/in/maksudur-rahaman-7591b8239/"><FaLinkedin className="text-3xl" /></a>
                                 
                             </div>
                         </div>
