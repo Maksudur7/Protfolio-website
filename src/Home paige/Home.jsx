@@ -24,7 +24,7 @@ const Home = () => {
                         </div>
                         <div className="w-full mt-5">
                             <div className="flex justify-center items-center text-end">
-                                <img className="h-64 w-52 border-black border-4 rounded-tl-3xl rounded-br-3xl" src="https://i.ibb.co/FwJrLPy/IMG-1926-removebg-preview.png" alt="" />
+                                <img className="h-64 w-52 border-white border-4 rounded-tl-3xl rounded-br-3xl" src="https://i.ibb.co/FwJrLPy/IMG-1926-removebg-preview.png" alt="" />
 
                             </div>
                             <div className="mt-5 text-center flex items-center justify-center gap-5">
