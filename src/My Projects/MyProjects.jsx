@@ -1,5 +1,5 @@
-
-
+// import AwesomeSlider from 'react-awesome-slider';
+import 'react-awesome-slider/dist/styles.css';
 const MyProjects = () => {
     return (
         <div>
@@ -8,6 +8,14 @@ const MyProjects = () => {
                 <hr className="h-2 bg-yellow-500 w-64" />
                 <hr className="h-2 bg-yellow-500 w-72 mt-2 mb-10" />
             </div>
+            {/* <div>
+                <AwesomeSlider>
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                    <div>4</div>
+                </AwesomeSlider>
+            </div> */}
             <div className="grid md:grid-cols-2 gap-5">
                 <div className="border p-3">
                     <img className="border-black border-4 h-96 w-full  " src="https://i.ibb.co/7btdk13/img1.png" alt="" />

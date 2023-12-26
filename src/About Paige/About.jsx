@@ -23,8 +23,8 @@ const About = () => {
                                 <td><strong>Phone:</strong> 01315906086</td>
                             </tr>
                             <tr className='grid md:grid-cols-2 gap-5'>
-                                <td><strong>Github:</strong> https://github.com/Maksudur7</td>
-                                <td><strong>Facebook:</strong> https://www.facebook.com/sm.maksudur.71</td>
+                                <td><strong>Github:</strong> <a href="https://github.com/Maksudur7">https://github.com/Maksudur7</a></td>
+                                <td><strong>Facebook:</strong> <a href="https://www.facebook.com/sm.maksudur.71">https://www.facebook.com/sm.maksudur.71</a></td>
                             </tr>
                             <tr className='grid md:grid-cols-2 gap-5'>
                                 <td><strong>City:</strong> Barishal, Bangladesh</td>

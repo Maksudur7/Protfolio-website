@@ -18,7 +18,10 @@ const Navbar = () => {
                             <Link to={`/contact`}><li><a>Contact</a></li></Link>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl">Protfolio</a>
+                    <div className="flex justify-center items-center">
+                        <img className="h-12 w-12 rounded-full" src="https://i.ibb.co/16FCfXG/IMG-1926-removebg-preview-Photo-Room.png" alt="" />
+                        <a className="btn btn-ghost text-xl">Protfolio</a>
+                    </div>
                 </div>
                 <div className="navbar-end hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">

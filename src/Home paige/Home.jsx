@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import MyProjects from "../My Projects/MyProjects";
+import { FaSquareFacebook, FaLinkedin } from 'react-icons/fa6';
 const Home = () => {
 
     return (
@@ -12,22 +13,28 @@ const Home = () => {
                             <h1 className="text-4xl">Hi</h1>
                             <h1 className="text-7xl font-bold">I`m Maksudur Rahaman</h1>
                             <h1 className="text-5xl font-bold">Web Devloper</h1>
-
+                            <div className="flex gap-10 md:ml-0 ml-20 mb-5">
+                                <a href="/MaksudurRahamanResume.pdf" download="/MaksudurRahamanResume.pdf">
+                                    <button className="btn btn-outline btn-info mt-5">Downlod CV</button>
+                                </a>
+                                <Link to={`/about`}>
+                                    <button className="btn btn-outline btn-info mt-5">About Me</button>
+                                </Link>
+                            </div>
                         </div>
-                        <div className="w-full ">
+                        <div className="w-full mt-5">
                             <div className="flex justify-center items-center text-end">
-                                <img className="h-64 w-52 border-black border-4 rounded-tl-3xl rounded-br-3xl" src="https://i.ibb.co/hZ1HqGr/379503887-819969059609509-9030902362550849252-n.jpg" alt="" />
+                                <img className="h-64 w-52 border-black border-4 rounded-tl-3xl rounded-br-3xl" src="https://i.ibb.co/FwJrLPy/IMG-1926-removebg-preview.png" alt="" />
+
+                            </div>
+                            <div className="mt-5 text-center flex items-center justify-center gap-5">
+                                <a href="https://www.facebook.com/sm.maksudur.71"><FaSquareFacebook className="text-3xl" /></a>
+                                <a href="https://www.linkedin.com/in/maksudur-rahaman-067b35274/"><FaLinkedin className="text-3xl" /></a>
+                                
                             </div>
                         </div>
                     </div>
-                    <div className="flex gap-10 ml-20 mb-5">
-                        <a href="../../public/Bio_data.pdf" download='../../public/Bio_data.pdf'>
-                            <button className="btn btn-outline btn-info mt-5">Downlod CV</button>
-                        </a>
-                        <Link to={`/about`}>
-                            <button className="btn btn-outline btn-info mt-5">About Me</button>
-                        </Link>
-                    </div>
+
                 </div>
             </div>
             <MyProjects></MyProjects>
