@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import MyProjects from "../My Projects/MyProjects";
-import { FaSquareFacebook, FaLinkedin } from 'react-icons/fa6';
+import { FaSquareFacebook, FaLinkedin, FaGithub } from 'react-icons/fa6';
 const Home = () => {
 
     return (
@@ -30,6 +30,7 @@ const Home = () => {
                             <div className="mt-5 text-center flex items-center justify-center gap-5">
                                 <a href="https://www.facebook.com/sm.maksudur.71"><FaSquareFacebook className="text-3xl" /></a>
                                 <a href="https://www.linkedin.com/in/maksudur-rahaman-7591b8239/"><FaLinkedin className="text-3xl" /></a>
+                                <a href="https://github.com/Maksudur7"><FaGithub className="text-3xl" /></a>
                                 
                             </div>
                         </div>
