@@ -1,6 +1,7 @@
 import '../About Paige/Css file/Makup.css';
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2';
 
 const ContactPaige = () => {
 
@@ -12,6 +13,13 @@ const ContactPaige = () => {
         emailjs.sendForm('service_vda5frn', 'template_k90nwb7', form.current, 'DzjufpvFNv2KyKloe')
             .then((result) => {
                 console.log(result.text);
+                Swal.fire({
+                    position: "top-end",
+                    icon: "success",
+                    title: "Send Your Requst",
+                    showConfirmButton: false,
+                    timer: 1500
+                });
             }, (error) => {
                 console.log(error.text);
             });
