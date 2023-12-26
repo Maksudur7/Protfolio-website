@@ -32,7 +32,7 @@ const About = () => {
                             </tr>
                         </table>
                         <div className="flex gap-10">
-                            <a href="../../public/Bio_data.pdf" download='../../public/Bio_data.pdf'>
+                            <a href="/MaksudurRahamanResume.pdf" download='/MaksudurRahamanResume.pdf'>
                                 <button className="btn btn-outline btn-info mt-5">Downlod CV</button>
                             </a>
                             <Link to={`/contact`}><button className="btn btn-outline btn-info mt-5">Hire Me</button></Link>
