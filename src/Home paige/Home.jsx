@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import MyProjects from "../My Projects/MyProjects";
 import { FaSquareFacebook, FaLinkedin, FaGithub } from 'react-icons/fa6';
+import About from "../About Paige/About";
+import ContactPaige from "../Contact Paige/ContactPaige";
 const Home = () => {
 
     return (
@@ -31,14 +33,22 @@ const Home = () => {
                                 <a href="https://www.facebook.com/sm.maksudur.71"><FaSquareFacebook className="text-3xl" /></a>
                                 <a href="https://www.linkedin.com/in/maksudur-rahaman-7591b8239/"><FaLinkedin className="text-3xl" /></a>
                                 <a href="https://github.com/Maksudur7"><FaGithub className="text-3xl" /></a>
-                                
+
                             </div>
                         </div>
                     </div>
 
                 </div>
             </div>
-            <MyProjects></MyProjects>
+            <section>
+                <MyProjects></MyProjects>
+            </section>
+            <section className="my-10">
+                <About></About>
+            </section>
+            <section>
+                <ContactPaige></ContactPaige>
+            </section>
         </div>
     );
 };

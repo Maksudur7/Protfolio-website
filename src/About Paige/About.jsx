@@ -5,7 +5,7 @@ import './Css file/Makup.css';
 
 const About = () => {
     return (
-        <div className='bg-gray-200 p-10'>
+        <div className='p-10'>
             <div className=" w-full h-full " >
                 <div className="about-loren">
                     <h1 className='text-5xl font-bold mt-10 mb-5'>About Me</h1>
